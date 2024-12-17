@@ -26,7 +26,6 @@
 </template>
 <script>
 	import * as util from '../../../common/util.js'
-	
 	var formatLocation = util.formatLocation;
 	export default {
 		data() {
