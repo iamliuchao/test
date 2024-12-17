@@ -1,0 +1,1 @@
+"use strict";const t={data:()=>({latitude:39.909,longitude:116.39742,covers:[{latitude:39.909,longitude:116.39742,iconPath:"../../../static/location.png"}]}),methods:{}};const e=require("../../../common/vendor.js")._export_sfc(t,[["render",function(t,e,o,n,c,i){return{a:c.longitude,b:c.latitude,c:c.covers}}]]);wx.createPage(e);

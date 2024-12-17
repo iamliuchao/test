@@ -1,0 +1,1 @@
+<view><button size="mini" disabled="{{b}}" bindtap="{{c}}">{{a}}</button></view>

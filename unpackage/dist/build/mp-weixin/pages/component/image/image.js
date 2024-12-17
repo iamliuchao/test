@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),t={data:()=>({title:"image"})};if(!Array){e.resolveComponent("page-head")()}const r=e._export_sfc(t,[["render",function(t,r,n,o,a,i){return{a:e.p({title:a.title})}}]]);wx.createPage(r);

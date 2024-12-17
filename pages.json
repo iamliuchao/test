@@ -1,0 +1,158 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "index"
+		// 	}
+		// },
+		{
+			"path" : "pages/tabBar/component/component",
+			"style" : 
+			{
+				"navigationBarTitleText" : "内置组件"
+			}
+		},
+		{
+			"path" : "pages/tabBar/API/API",
+			"style" : 
+			{
+				"navigationBarTitleText" : "接口"
+			}
+		},
+		{
+			"path" : "pages/tabBar/extUI/extUI",
+			"style" : 
+			{
+				"navigationBarTitleText" : "外置组件"
+			}
+		},
+		{
+			"path" : "pages/tabBar/template/template",
+			"style" : 
+			{
+				"navigationBarTitleText" : "模版"
+			}
+		},
+		{
+			"path": "pages/component/testButton/testButton",
+			"style": {
+				"navigationBarTitleText": "testButton"
+			}
+		},
+		{
+			"path": "pages/component/view/view",
+			"style": {
+				"navigationBarTitleText": "view"
+			}
+		},
+		{
+			"path": "pages/component/swiper/swiper",
+			"style": {
+				"navigationBarTitleText": "swiper"
+			}
+		},
+		{
+			"path" : "pages/component/image/image",
+			"style" : 
+			{
+				"navigationBarTitleText" : "image"
+			}
+		},
+		{
+			"path" : "pages/component/icon/icon",
+			"style" : 
+			{
+				"navigationBarTitleText" : "icon"
+			}
+		},
+		{
+			"path" : "pages/component/form/form",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/component/map/map",
+			"style" : 
+			{
+				"navigationBarTitleText" : "地图组件"
+			}
+		},
+		{
+			"path" : "pages/extUI/uni-combox/uni-combox",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/API/get-location/get-location",
+			"style" : 
+			{
+				"navigationBarTitleText" : "get-location"
+			}
+		},
+		{
+			"path" : "pages/API/choose-location/choose-location",
+			"style" : 
+			{
+				"navigationBarTitleText" : "choose-location"
+			}
+		},
+		{
+			"path" : "pages/API/open-location/open-location",
+			"style" : 
+			{
+				"navigationBarTitleText" : "open-location"
+			}
+		}
+		
+	],
+	
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"position": "bottom",
+		// "midButton":{
+		// 	"iconPath":"static/home.png",
+		// 	"height":"80px",
+		// 	"iconWidth":"60px",
+		// 	"text":"发布"
+		// },
+		"list": [{
+				"pagePath": "pages/tabBar/component/component",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "内置组件"
+			},
+			{
+				"pagePath": "pages/tabBar/API/API",
+				"iconPath": "static/api.png",
+				"selectedIconPath": "static/apiHL.png",
+				"text": "接口"
+			}, {
+				"pagePath": "pages/tabBar/extUI/extUI",
+				"iconPath": "static/extui.png",
+				"selectedIconPath": "static/extuiHL.png",
+				"text": "扩展组件"
+			}, {
+				"pagePath": "pages/tabBar/template/template",
+				"iconPath": "static/template.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "模板"
+			}
+		]
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

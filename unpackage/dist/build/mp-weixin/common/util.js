@@ -1,0 +1,1 @@
+"use strict";exports.formatLocation=function(t,o){return"string"==typeof t&&"string"==typeof o&&(t=parseFloat(t),o=parseFloat(o)),t=t.toFixed(2),o=o.toFixed(2),{longitude:t.toString().split("."),latitude:o.toString().split(".")}};

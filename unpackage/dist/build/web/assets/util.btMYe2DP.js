@@ -1,0 +1,1 @@
+function t(t,i){return"string"==typeof t&&"string"==typeof i&&(t=parseFloat(t),i=parseFloat(i)),t=t.toFixed(2),i=i.toFixed(2),{longitude:t.toString().split("."),latitude:i.toString().split(".")}}export{t as f};

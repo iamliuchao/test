@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/tabBar/component/component",
+    "pages/tabBar/API/API",
+    "pages/tabBar/extUI/extUI",
+    "pages/tabBar/template/template",
+    "pages/component/testButton/testButton",
+    "pages/component/view/view",
+    "pages/component/swiper/swiper",
+    "pages/component/image/image",
+    "pages/component/icon/icon",
+    "pages/component/form/form",
+    "pages/component/map/map",
+    "pages/extUI/uni-combox/uni-combox",
+    "pages/API/get-location/get-location",
+    "pages/API/choose-location/choose-location",
+    "pages/API/open-location/open-location"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/component/component",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "内置组件"
+      },
+      {
+        "pagePath": "pages/tabBar/API/API",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/apiHL.png",
+        "text": "接口"
+      },
+      {
+        "pagePath": "pages/tabBar/extUI/extUI",
+        "iconPath": "static/extui.png",
+        "selectedIconPath": "static/extuiHL.png",
+        "text": "扩展组件"
+      },
+      {
+        "pagePath": "pages/tabBar/template/template",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "模板"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
